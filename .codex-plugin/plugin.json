@@ -1,0 +1,25 @@
+{
+  "name": "tradingview",
+  "version": "0.1.0",
+  "description": "Connect Codex to the official TradingView MCP server.",
+  "author": {
+    "name": "TradingView"
+  },
+  "homepage": "https://www.tradingview.com/mcp/docs",
+  "keywords": ["tradingview", "markets", "finance", "mcp"],
+  "interface": {
+    "displayName": "TradingView",
+    "shortDescription": "Market data and TradingView tools in Codex.",
+    "longDescription": "Connect to TradingView's official MCP server for market data, screeners, research, news, calendars, watchlists, and alerts.",
+    "developerName": "TradingView",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://www.tradingview.com/",
+    "defaultPrompt": [
+      "What is happening with AAPL today?",
+      "Compare BTC, ETH, and SOL over the last 90 days.",
+      "Show my TradingView watchlists."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
